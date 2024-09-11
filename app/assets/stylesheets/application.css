@@ -19,7 +19,7 @@ h2 {
   margin: 16.185px 0;
 }
 
-p {
+p, ul {
   margin: 33px;
 }
 
@@ -43,6 +43,30 @@ label {
 
 #notice {
   color: green;
+}
+
+#errors_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errors_explanation h2 {
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
